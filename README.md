@@ -7,12 +7,17 @@ pip install pytorch-iga
 ```
 
 ```python
-from iga import ...
+from iga import IGA
 ```
 
 ## Contributing
 
 ```bash
+# to publish
+make clean
+make build
+bash run.sh publish:prod
+
 # clone the repo
 git clone https://github.com/phitoduck/pytorch-iga.git
 
